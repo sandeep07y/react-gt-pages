@@ -1,0 +1,39 @@
+li.list-group-item {
+  display: flex;
+}
+
+.button-group {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.up-button,
+.down-button {
+  margin-left: 4px; /* Add space between buttons */
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 0;
+}
+.delete {
+  display: flex;
+  justify-content: end;
+}
+
+.labelForData {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.card {
+  width: 80%;
+  height: 30%;
+  float: left;
+  margin: 5% 10%;
+}
+
+h2,
+h4 {
+  text-align: center;
+}
